@@ -1,9 +1,7 @@
-import { Button } from "@/components/button";
+import {Header} from "../components/Header"
 
 export default function Home() {
   return (
-    <main>
-      <Button />
-    </main>
+    <Header />
   )
 }
