@@ -6,8 +6,7 @@ export const globalStyles = globalCss({
         padding: 0,
         border: 'none',
         boxSizing: 'border-box',
-        fontFamily: 'Poppins, sans-serif',
-
+        listStyle: 'none'
     },
     html: {
         fontSize: "62.5%",
@@ -23,12 +22,16 @@ export const globalStyles = globalCss({
     },
     button: {
         cursor: 'pointer',
+        background: 'transparent',
+        border: 'none',
     },
+    a: {
+        textDecoration: 'none'
+    }
 });
 
 export const Container = styled("div", {
     width: "100%",
     maxWidth: 1246,
-    margin: "0 auto",
-    padding: "0 15px"
+    margin: "0 auto"
 })

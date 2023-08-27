@@ -13,7 +13,7 @@ export const metadata = {
 globalStyles();
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" as="style">
       <head>
         <style id='stitches' dangerouslySetInnerHTML={{ __html: getCssText()} }></style>
       </head>
