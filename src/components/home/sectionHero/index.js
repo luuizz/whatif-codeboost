@@ -25,10 +25,10 @@ export function SectionHero() {
                 <AreaSocial>
                     <ul>
                         {
-                            socials.map(({name, url, icon}) => {
+                            socials.map(({name, url, icon, index}) => {
                                 return (
-                                    <li>
-                                        <a href={url} target='_blank' title={`Ir para ${name}`}>
+                                    <li key={index}>
+                                        <a href={url} target="_blank" title={`Ir para ${name}`}>
                                             <Image
                                             src={icon}
                                             alt={icon}
