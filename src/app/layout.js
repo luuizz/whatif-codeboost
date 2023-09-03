@@ -1,6 +1,8 @@
 import { getCssText } from '@/styles'
 import { Poppins } from 'next/font/google'
 import {globalStyles} from "../styles/global"
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/footer'
 const poppins = Poppins({ 
   subsets: ['latin'],
   weight: ['400', '600', '700']
@@ -17,7 +19,11 @@ export default function RootLayout({ children }) {
       <head>
         <style id='stitches' dangerouslySetInnerHTML={{ __html: getCssText()} }></style>
       </head>
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

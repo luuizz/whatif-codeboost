@@ -1,43 +1,39 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-78c92fac7aa8fdd8.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/FPHU-OU5YnMNbfDHTrH_2/_buildManifest.js",
-    "static/FPHU-OU5YnMNbfDHTrH_2/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [
-    "static/chunks/webpack-7f108cc98551ac6c.js",
-    "static/chunks/fd9d1056-5fc0659828b82348.js",
-    "static/chunks/596-686cfb59dc1bc447.js",
-    "static/chunks/main-app-152b327eea300bc5.js"
+    "static/chunks/webpack.js",
+    "static/chunks/main-app.js"
   ],
   "pages": {
     "/404": [
-      "static/chunks/webpack-7f108cc98551ac6c.js",
-      "static/chunks/framework-55776d121fc0e925.js",
-      "static/chunks/main-d62d37922d9e063a.js",
-      "static/chunks/pages/404-0fa845386d766a6c.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/404.js"
     ],
     "/_app": [
-      "static/chunks/webpack-7f108cc98551ac6c.js",
-      "static/chunks/framework-55776d121fc0e925.js",
-      "static/chunks/main-d62d37922d9e063a.js",
-      "static/chunks/pages/_app-52924524f99094ab.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-7f108cc98551ac6c.js",
-      "static/chunks/framework-55776d121fc0e925.js",
-      "static/chunks/main-d62d37922d9e063a.js",
-      "static/chunks/pages/_error-c92d5c4bb2b49926.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ],
     "/character/[slug]": [
-      "static/chunks/webpack-7f108cc98551ac6c.js",
-      "static/chunks/framework-55776d121fc0e925.js",
-      "static/chunks/main-d62d37922d9e063a.js",
-      "static/chunks/pages/character/[slug]-96238d5626a360c6.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/character/[slug].js"
     ]
   },
   "ampFirstPages": []
