@@ -4,6 +4,7 @@ import { Container } from "@/styles/global"
 import {CardCharacter} from "../../cardCharacter";
 import LogoMarvel from "../../../assets/logo-marvel.svg"
 import KillmongerImage from '../../../assets/character-01.jpg'
+import CaptainCarterImage from "../../../assets/character-02.jpg"
 
 const characters = [
     {
@@ -13,32 +14,32 @@ const characters = [
     },
     {
         name: "Captain Carter",
-        image: "",
+        image: CaptainCarterImage,
         slug: 'captain-carter',
     },
     {
         name: "Captain Carter",
-        image: "",
+        image: KillmongerImage,
         slug: 'captain-carter',
     },
     {
         name: "Captain Carter",
-        image: "",
+        image: CaptainCarterImage,
         slug: 'captain-carter',
     },
     {
         name: "Captain Carter",
-        image: "",
+        image: KillmongerImage,
         slug: 'captain-carter',
     },
     {
         name: "Captain Carter",
-        image: "",
+        image: CaptainCarterImage,
         slug: 'captain-carter',
     },
     {
         name: "Captain Carter",
-        image: "",
+        image: KillmongerImage,
         slug: 'captain-carter',
     }
 ]
