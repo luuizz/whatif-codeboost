@@ -4,6 +4,5 @@ export function getPrismicClient() {
     const prismic = createClient("codeboost-whaif", {
         accessToken: process.env.NEXT_PUBLIC_PRISMIC_ACCESS_TOKEN,
     });
-    console.log(prismic);
     return prismic;
 }
