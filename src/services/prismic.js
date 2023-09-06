@@ -1,10 +1,9 @@
 import { createClient } from "@prismicio/client";
 
-export function getPrismicClient(req) {
-    const prismic = createClient(process.env.PRISMIC_ENDPOINT, {
-        req,
-        acessToken: process.env.PRISMIC_ACESS_TOKEN
-    })
-
+export function getPrismicClient() {
+    const prismic = createClient("codeboost-whaif", {
+        accessToken: process.env.NEXT_PUBLIC_PRISMIC_ACCESS_TOKEN,
+    });
+    console.log(prismic);
     return prismic;
 }

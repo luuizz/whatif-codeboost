@@ -3,10 +3,11 @@ import { ListCharacters } from "../components/home/listCharacters"
 import { getPrismicClient } from "../services/prismic"
 
 
-export default function Home() {
+export default function Home({dataPage}) {
   return (
     <>
       <SectionHero
+      data={dataPage}
       />
       <ListCharacters />
     </>
@@ -15,15 +16,10 @@ export default function Home() {
 
 
 export const getStaticProps = async () => {
-  const prismic = getPrismicClient()
+  const prismic = getPrismicClient();
   const contentsPage = await prismic.getSingle("home");
 
-  const characters = await prismic.getAllByType('character');
-
-  console.log(characters);
-
-  console.log(contentsPage.data);
-
+  console.log(dataPage);
   return {
     props: {
       dataPage: contentsPage.data,
